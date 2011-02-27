@@ -1,15 +1,15 @@
-%include	/usr/lib/rpm/macros.php
 %define		status		stable
 %define		pearname	Text_Template
+%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Simple template engine
 Name:		php-phpunit-Text_Template
-Version:	1.0.0
+Version:	1.1.0
 Release:	1
 License:	BSD License
 Group:		Development/Languages/PHP
 Source0:	http://pear.phpunit.de/get/%{pearname}-%{version}.tgz
-# Source0-md5:	de7b8f04dce1bf5bf404594c843f539a
-URL:		http://pear.phpunit.de/package/Text_Template/
+# Source0-md5:	2ae956193c84c3e5b543b8bab992c0f1
+URL:		http://pear.phpunit.de/
 BuildRequires:	php-channel(pear.phpunit.de)
 BuildRequires:	php-packagexml2cl
 BuildRequires:	php-pear-PEAR
@@ -44,3 +44,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc ChangeLog install.log
 %{php_pear_dir}/.registry/.channel.*/*.reg
 %{php_pear_dir}/Text/Template.php
+%{php_pear_dir}/Text/Template
