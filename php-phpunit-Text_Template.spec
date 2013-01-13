@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Simple template engine
 Name:		php-phpunit-Text_Template
-Version:	1.1.3
+Version:	1.1.4
 Release:	1
 License:	BSD License
 Group:		Development/Languages/PHP
 Source0:	http://pear.phpunit.de/get/%{pearname}-%{version}.tgz
-# Source0-md5:	d76caba90a12c773293f3247e54247fd
+# Source0-md5:	fc3277ea490501e79184172c05e64de9
 URL:		http://pear.phpunit.de/
 BuildRequires:	php-channel(pear.phpunit.de)
 BuildRequires:	php-packagexml2cl
