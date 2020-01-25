@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	Text_Template
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Simple template engine
 Name:		php-phpunit-Text_Template
 Version:	1.2.0
